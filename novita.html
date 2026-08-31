@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Novità | Officina del Make-Up</title>
+  <meta name="description" content="Novità, iniziative e aggiornamenti da Officina del Make-Up.">
+  <meta property="og:title" content="Novità | Officina del Make-Up">
+  <meta property="og:description" content="Scopri le ultime novità di Officina del Make-Up.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://officinadelmakeup.it/novita.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Officina del Make-Up, home">
+        <img src="assets/logos/logo-officina.jpg" alt="Logo Officina del Make-Up">
+        <span class="brand-text"><span class="brand-name">Officina del Make-Up</span><span class="brand-caption">Beauty professionale</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Apri menu" aria-expanded="false"><span></span></button>
+      <nav class="main-nav" aria-label="Navigazione principale">
+        <ul>
+          <li><a href="novita.html" aria-current="page">Novità</a></li>
+          <li><a href="prodotti.html">Prodotti</a></li>
+          <li><a href="servizi.html">Servizi</a></li>
+          <li><a href="marchi.html">Marchi</a></li>
+          <li><a href="chi-siamo.html">Chi siamo</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </nav>
+      <a class="button" href="contatti.html">Contattaci</a>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div><p class="eyebrow">Novità / 06</p><h1>Le ultime novità.</h1></div>
+        <p class="page-hero-intro">Aggiornamenti, nuovi arrivi e iniziative dall'Officina del Make-Up. <strong>Scorri</strong> le schede e apri una notizia per leggerla tutta.</p>
+      </div>
+    </section>
+
+    <section class="section news-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">In evidenza</p><h2>Quello che succede in negozio.</h2></div>
+          <p>Resta aggiornato su nuovi arrivi, iniziative e appuntamenti.</p>
+        </div>
+        <div class="news-status" data-news-status aria-live="polite"></div>
+        <div class="news-viewport" data-news-viewport tabindex="0" aria-label="Novità, scorri lateralmente per vedere tutte le notizie">
+          <div class="news-grid" data-news-grid></div>
+        </div>
+        <p class="news-scroll-note">Scorri lateralmente per vedere tutte le notizie <span aria-hidden="true">→</span></p>
+      </div>
+    </section>
+
+    <div class="news-modal" data-news-modal hidden>
+      <div class="news-modal-backdrop" data-news-close></div>
+      <article class="news-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="news-modal-title">
+        <button class="news-modal-close" type="button" data-news-close aria-label="Chiudi notizia">×</button>
+        <div class="news-modal-media" data-news-modal-media></div>
+        <div class="news-modal-content">
+          <p class="eyebrow">Novità</p>
+          <h2 id="news-modal-title" data-news-modal-title></h2>
+          <div class="news-modal-description" data-news-modal-description></div>
+        </div>
+      </article>
+    </div>
+
+    <section class="section section-dark section-sm">
+      <div class="container quote-block reveal">
+        <p class="eyebrow">Hai una domanda?</p>
+        <h2>Passa a trovarci o scrivici.</h2>
+        <p>Per sapere se un prodotto o un'iniziativa è disponibile, contattaci direttamente.</p>
+        <a class="button button-light" href="contatti.html">Contattaci</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div><a class="footer-brand" href="index.html"><img src="assets/logos/logo-officina.jpg" alt=""><span class="brand-text"><span class="brand-name">Officina del Make-Up</span><span class="brand-caption">di Antonio Conti</span></span></a><p class="footer-copy">Prodotti e attrezzature per il mondo beauty professionale, a Bulciago.</p></div>
+      <div><p class="footer-title">Esplora</p><ul class="footer-links"><li><a href="prodotti.html">Prodotti</a></li><li><a href="servizi.html">Servizi</a></li><li><a href="marchi.html">Marchi trattati</a></li><li><a href="novita.html" aria-current="page">Novità</a></li><li><a href="chi-siamo.html">Chi siamo</a></li></ul></div>
+      <div><p class="footer-title">Contatti</p><ul class="footer-links"><li><a href="tel:+39031874425">031 874425</a></li><li><a href="mailto:officina@makeup.qcom.it">officina@makeup.qcom.it</a></li><li>Via Roma 16/A<br>23892 Bulciago (LC)</li></ul></div>
+    </div>
+    <div class="container footer-bottom"><div class="footer-legal"><span class="footer-vat-line">P. IVA: 04308400136</span><span class="footer-copyright">© 2026 Officina del Make-Up di Antonio Conti</span></div><span><a href="privacy.html">Privacy Policy</a></span></div>
+  </footer>
+  <script src="data/notizie.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
