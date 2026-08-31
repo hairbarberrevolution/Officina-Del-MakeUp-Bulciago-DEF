@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Nuovi arrivi beauty</title>
+  <desc id="desc">Immagine di test per la sezione novità</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2eee8"/>
+      <stop offset="1" stop-color="#c8b8aa"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#d3c4b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="780" fill="url(#background)"/>
+  <circle cx="965" cy="145" r="210" fill="#fffaf4" opacity=".4"/>
+  <circle cx="160" cy="675" r="250" fill="#a89586" opacity=".22"/>
+  <path d="M0 610 C260 510 360 700 620 600 S1000 530 1200 640 V780 H0Z" fill="#a89586" opacity=".28"/>
+  <g transform="translate(470 142)">
+    <rect x="120" y="0" width="170" height="82" rx="17" fill="#3b3835"/>
+    <rect x="92" y="67" width="226" height="448" rx="44" fill="url(#bottle)" stroke="#3b3835" stroke-width="5"/>
+    <rect x="126" y="172" width="158" height="178" rx="8" fill="#fbfaf7" stroke="#b8a99a" stroke-width="3"/>
+    <text x="205" y="222" text-anchor="middle" fill="#3b3835" font-family="Georgia, serif" font-size="27">OFFICINA</text>
+    <text x="205" y="258" text-anchor="middle" fill="#6f6d69" font-family="Arial, sans-serif" font-size="14" letter-spacing="3">BEAUTY</text>
+    <text x="205" y="301" text-anchor="middle" fill="#3b3835" font-family="Georgia, serif" font-size="21">NUOVO</text>
+    <path d="M35 500 H375" stroke="#3b3835" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="78" y="126" fill="#3b3835" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="5">NOVITÀ</text>
+  <text x="78" y="180" fill="#3b3835" font-family="Georgia, serif" font-size="54">Nuovi arrivi</text>
+  <text x="78" y="238" fill="#3b3835" font-family="Georgia, serif" font-size="54">beauty in negozio</text>
+</svg>
